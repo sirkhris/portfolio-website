@@ -1,0 +1,101 @@
+.contact {
+  @include centerFlex;
+  flex-flow: column;
+  grid-template-columns: 1fr 1fr;
+
+  background: black;
+
+  padding: 5rem 0rem;
+
+  &__title {
+    font-size: 5rem;
+    color: white;
+
+    padding-bottom: 5rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__subject-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__subject {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  &__input {
+    padding: 1rem;
+  }
+
+  &__textarea {
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  input,
+  textarea {
+    font-size: 2.5rem;
+    color: green;
+    background-color: transparent;
+
+    padding: 0.25rem;
+
+    border-radius: 0rem;
+    border: 0px solid black;
+    border-bottom: 1px solid white;
+
+    transition: all 0.2s;
+
+    &:focus,
+    &:hover,
+    &:active {
+      background-color: white;
+      outline: none;
+    }
+
+    &::placeholder {
+      font-weight: 500;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  }
+
+  &__error {
+    color: red;
+  }
+
+  &__button {
+    @include centerFlex;
+    font-size: 2.5rem;
+    color: white;
+    background-color: black;
+
+    width: 10%;
+    padding: 1rem 1rem;
+
+    border: 0.1rem solid black;
+    border-radius: 5rem;
+
+    cursor: pointer;
+
+    transition: all .25s;
+
+    &:visited,
+    &:link {
+      color: white;
+    }
+
+    &:active,
+    &:hover {
+      background-color: green;
+      color: white;
+    }
+  }
+}

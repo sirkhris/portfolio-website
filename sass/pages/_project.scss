@@ -1,0 +1,57 @@
+$project_img_size: 5rem;
+
+.project {
+  margin: 5rem 20rem;
+
+  &__title {
+    font-size: 5rem;
+    text-align: center;
+    color: crimson;
+  }
+
+  &__body {
+    font-size: 1.4rem;
+
+    @include centerFlex;
+    flex-flow: column;
+  }
+
+  &__img-container {
+    @include SixteenByNine($project_img_size);
+    margin: 2.5rem;
+  }
+
+  &__info-container {
+    padding: 2.5rem;
+
+    @include centerGrid;
+    grid-template-columns: 9fr 1fr;
+  }
+
+  &__tech {
+    margin-left: 1rem;
+    border: 1px solid black;
+
+    li {
+      font-size: 1.6rem;
+      display: flex;
+      gap: 1rem;
+      margin: 1rem;
+    }
+
+    p {
+      transform: translateY(0.2rem);
+    }
+  }
+
+  &__tech-icon {
+    @include Square(3rem);
+  }
+
+  &__links {
+    height: 30vh;
+    @include centerFlex;
+    flex-flow: column;
+    gap: 1rem;
+  }
+}

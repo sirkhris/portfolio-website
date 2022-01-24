@@ -1,0 +1,13 @@
+.footer {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+
+  @include centerFlex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+  padding: 2rem 0rem;
+}

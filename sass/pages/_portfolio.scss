@@ -1,0 +1,92 @@
+.portfolio {
+  @include centerFlex;
+  flex-flow: column;
+
+  padding-bottom: 15rem;
+
+  &__title {
+    margin: 5rem 0rem;
+    color: green;
+  }
+
+  &__container {
+    @include centerGrid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10rem;
+  }
+
+  &__card {
+    background-color: white;
+
+    position: relative;
+    border: black 0.1rem solid;
+
+    padding-bottom: 5.0rem;
+    height: 14rem;
+    width: 34rem;
+  }
+
+  &__image {
+    opacity: 25%;
+  }
+
+  &__card-container {
+    display: flex;
+    flex-direction: column;
+    @include fixedCenter;
+    top: 55%;
+  }
+
+  &__card-title {
+    @include centerFlex;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: green;
+
+    margin: 1rem 0rem;
+  }
+
+  &__description {
+    font-size: 1.2rem;
+    text-align: center;
+
+    padding: 0rem 2rem;
+    height: 5rem;
+  }
+
+  &__centerer {
+    @include centerFlex;
+
+    margin: 3rem 1rem;
+    padding-top: 2.5rem;
+  }
+
+  &__button {
+    @include centerFlex;
+    font-size: 1.2rem;
+    background-color: transparent;
+
+    width: 8%;
+    padding: 0rem 1.75rem;
+    margin: 0rem 2rem;
+
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    transition: all .25s;
+
+    &:visited,
+    &:link {
+      color: white;
+    }
+
+    &:active,
+    &:hover {
+      background-color: green;
+      color: white;
+    }
+  }
+}
