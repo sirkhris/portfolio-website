@@ -43,7 +43,7 @@ export function HomeApp() {
           <div className='home__section-description'>
             Here are a few projects that I've done recently. To observe all
             projects that I've done &rarr;
-            <Link href='/Portfolio'>
+            <Link href='/Portfolio' passHref>
               <div className='home__button'>Visit Here</div>
             </Link>
           </div>

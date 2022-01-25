@@ -25,15 +25,15 @@ export function NavBar() {
   return (
     // <div className={`nav ${navRef.current}`}>
     <div className={`nav`}>
-      <Link href='/'>
+      <Link href='/' passHref>
         <div className='nav__home-name'>Khris Rhodes</div>
       </Link>
       <div className='nav__link-container'>
         <div>
-          <Link href='/'>
+          <Link href='/' passHref>
             <div className='nav__link'>Home</div>
           </Link>
-          <Link href='/Portfolio'>
+          <Link href='/Portfolio' passHref>
             <div className='nav__link'>Portfolio</div>
           </Link>
         </div>
