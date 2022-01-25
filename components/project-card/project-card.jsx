@@ -17,10 +17,10 @@ export function ProjectCard({ image, title, description, site, repo }) {
         <div className='portfolio__card-title'>{title}</div>
         <p className='portfolio__description'>{description}</p>
         <div className='portfolio__centerer'>
-          <a href={`${site}`} target='_blank'>
+          <a href={`${site}`} target='_blank' rel='noreferrer'>
             <div className='portfolio__button'>Website</div>
           </a>
-          <a href={`${repo}`} target='_blank'>
+          <a href={`${repo}`} target='_blank' rel='noreferrer'>
             <div className='portfolio__button'>Repo</div>
           </a>
         </div>
