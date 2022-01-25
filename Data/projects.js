@@ -7,8 +7,8 @@ export const projectData = [
     title: 'Portfolio Website',
     description:
       "This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project.",
-    site: '/',
-    repo: '/Portfolio/Portfolio-site',
+    site: '#',
+    repo: 'https://github.com/sirkhris/portfolio-website',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const projectData = [
     title: 'Second Project',
     description:
       "This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project.",
-    site: '/',
+    site: '#',
     repo: '/Portfolio/Portfolio-site',
   },
   {
@@ -25,7 +25,7 @@ export const projectData = [
     title: 'Third Project',
     description:
       "This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project.",
-    site: '/',
+    site: '#',
     repo: '/Portfolio/Portfolio-site',
   },
   {
@@ -34,7 +34,7 @@ export const projectData = [
     title: 'Fourth Project',
     description:
       "This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project. This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project. This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project.",
-    site: '/',
+    site: '#',
     repo: '/Portfolio/Portfolio-site',
   },
 ];
