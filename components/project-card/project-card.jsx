@@ -20,9 +20,13 @@ export function ProjectCard({ image, title, description, site, repo }) {
           <a href={`${site}`} target='_blank' rel='noreferrer'>
             <div className='portfolio__button'>Website</div>
           </a>
-          <a href={`${repo}`} target='_blank' rel='noreferrer'>
-            <div className='portfolio__button'>Repo</div>
-          </a>
+          {repo != '' ? (
+            <a href={`${repo}`} target='_blank' rel='noreferrer'>
+              <div className='portfolio__button'>Repo</div>
+            </a>
+          ) : (
+            <div className='portfolio__button-dud'>No Repo</div>
+          )}
         </div>
       </div>
     </div>
