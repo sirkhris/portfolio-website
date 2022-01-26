@@ -16,7 +16,7 @@ export const projectData = [
     title: 'Treasury4',
     description:
       'Worked in the agile development of this website. Responsible for front end development and responsiveness of website.',
-    site: 'www.treasury4.com',
+    site: 'https://treasury4.com/',
     repo: '',
   },
   {
