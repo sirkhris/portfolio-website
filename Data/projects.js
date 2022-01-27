@@ -21,7 +21,7 @@ export const projectData = [
   },
   {
     id: 3,
-    image: '/filler-pic.JPG',
+    image: '/portfolio-site.JPG',
     title: 'Portfolio Website',
     description:
       "This is a website that I've built to hold and present the collection of projects that I have done. I have used React, in particular Next.js to build this project.",

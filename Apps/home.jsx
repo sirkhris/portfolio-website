@@ -8,7 +8,7 @@ export function HomeApp() {
     <main className=''>
       <div className='home__hero-container'>
         <Image
-          src='/hero-image.JPG'
+          src='/hero-image2.jpg'
           alt=''
           layout='intrinsic'
           height={2160}
@@ -28,10 +28,7 @@ export function HomeApp() {
                 learning more about React and Next.js.
               </p>
               <br />
-              <p>
-                Feel free to contact to reach out to me. Thank you for visiting
-                my website!
-              </p>
+              <p>Feel free to contact me. Thank you for visiting my website!</p>
             </div>
           </div>
         </div>
