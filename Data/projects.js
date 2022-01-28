@@ -28,4 +28,13 @@ export const projectData = [
     site: 'https://khrisrhodes-portfolio.herokuapp.com/',
     repo: 'https://github.com/sirkhris/portfolio-website',
   },
+  {
+    id: 4,
+    image: '/rock-paper-scissors-site.JPG',
+    title: 'Rock Paper Scissors Game',
+    description:
+      'This is a website I made to make a simple rock paper scissors game. It uses simple HTML, CSS, and JavaScript.',
+    site: 'https://khrisrhodes-rps-game.netlify.app/',
+    repo: 'https://github.com/sirkhris/rock-paper-scissors',
+  },
 ];
